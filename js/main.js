@@ -144,22 +144,19 @@ class List{
 
 }
 var myList = new List();
-/*myList.push(1230);
+myList.push(1230);
 myList.push(555);
 myList.push(777);
 myList.unshift('Тестим аншифт');
 myList.set( "Тестим сет", 1);
 myList.push(512);
 myList.set( "Самый первый элемент", 0);
-myList.push('Пуш после реверса');
-myList.unshift('Unshift после реверса')
 myList.log();
 console.log(myList.toArray());
 console.log(myList.pop());
 console.log(myList.shift());
-myList.log();*/
+myList.log();
 myList.forEach(function(elem){
 	console.log(elem);
 	}
 );
-myList.toArray();
